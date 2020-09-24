@@ -20,7 +20,7 @@ nav {
   padding-top: 8px;
   padding-bottom: 8px;
   background: rgb(161, 161, 160);
-  background: linear-gradient(0deg,  rgba(161, 161, 160, 1) 0%,  rgba(111, 111, 109, 1) 39%,  rgba(111, 111, 109, 1) 63%,  rgba(161, 161, 160, 1) 100%);
+  background: linear-gradient(0deg, rgba(161, 161, 160, 1) 0%, rgba(111, 111, 109, 1) 39%, rgba(111, 111, 109, 1) 63%, rgba(161, 161, 160, 1) 100%);
   border-radius: 6px;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 nav a,
-av input {
+nav input {
   margin: 0 25px 0 0;
   text-decoration: none;
   color: white;
