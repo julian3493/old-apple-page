@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="flex">
             <a href="#">Apple</a>
             <a href="#">Store</a>
             <a href="#">Mac</a>
@@ -20,13 +22,13 @@
         </nav>
     </header>
     <main>
-        <h1>What will your verse be?</h1>
-        <h2>Everyone has something to share. See how people are using iPad in their unique ways 
-            to add to the world’s story.</h2>
-        <a href="#">Watch the “Your Verse” film and explore the stories</a>
+        <p class="big-title">What will your verse be?</p>
+        <p class="medium-title">Everyone has something to share. See how people are using iPad in their unique ways 
+            to add to the world’s story.</p>
+        <a class="small-title" href="#">Watch the “Your Verse” film and explore the stories</a>
     </main>
     <section>
-        <div>
+        <div class="grid">
             <img class="grid-img" src="assets/img/iphone5s.jpg" alt="iPhone5s">
             <img class="grid-img" src="assets/img/iphone5c.jpg" alt="iPhone5c">
             <img class="grid-img" src="assets/img/promo_30_years.jpg" alt="30 Years">
@@ -34,12 +36,12 @@
         </div>
     </section>
     <footer>
-        <div>
-            <div>
-                <p>Shop the <a>Apple Online Store</a> (1-800-MY-APPLE), visit an <a>Apple Retail Store</a>, 
-                or find a <a>reseller</a>.</p>
+        <div class="flex">
+            <div class="footer-elem flex">
+                <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, 
+                or find a <a href=#>reseller</a>.</p>
             </div>
-            <div>
+            <div class="footer-elem flex links">
                 <a href="#">Site Map</a>
                 <a href="#">Hot News</a>
                 <a href="#">RSS Feeds</a>
@@ -50,9 +52,9 @@
                 <img src="" alt="lang-button">
             </div>
         </div>
-        <div>
-            <p>Copyright © 2014 Apple Inc. All rights reserved. <a>Terms of Use</a></p> 
-            <p><a href="#">Privacy Policy</a></p>
+        <div class="footer-elem flex">
+            <p>Copyright © 2014 Apple Inc. All rights reserved. <a href="#">Terms of Use</a></p> 
+            <p><a class="policy-link" href="#">Privacy Policy</a></p>
         </div>
     </footer>
 </body>
