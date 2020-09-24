@@ -26,7 +26,7 @@ nav {
 
 header {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 90px;
   width: 100%;
 }
 
@@ -34,42 +34,48 @@ p {
     margin: 0;
 }
 
-nav a {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 25px;
-  margin-right: 0px;
+nav a, nav input {
+  margin: 0 25px 0 0;
   text-decoration: none;
   color: white;
-  border-right: black solid 1px;
+  border-right: darkgray solid 1px;
   padding-right: 24px;
   font-size: small;
+  height: 100%;
 }
 
 nav input {
   width: auto;
   margin-left: 24px;
+  border-radius: 12px;
+  background: none;
 }
 
 footer {
-  padding-left: 100px;
   padding-top: 10px;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
 footer a {
   color: #08c;
+  text-decoration: none;
 }
 
 /* <------------Utilities----------> */
 
 .flex {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .column {
   flex-direction: column;
+}
+
+.m-center {
+  margin: 0 auto;
 }
 
 /* <------------Main Container--------> */
@@ -119,17 +125,25 @@ footer a {
 /*<-----------Footer------------> */
 
 .footer-elem {
-  padding: 10px;
-  font-size: 11px;
+  padding: auto 10px;
+  font-size: 10px;
   color: #6e6e6e;
-  margin-right: 50px;
 }
 
 .links a {
-  padding: 0px;
+  padding: 0px 7px;
   border-right: #ccc solid 1px;
-  margin-right: 2.5px;
-  padding-right: 2.5px;
   width: 80px;
   text-align: center;
+}
+
+.lang-icon {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.lastline {
+  justify-content: flex-start;
+  margin-top: 20px;
 }
