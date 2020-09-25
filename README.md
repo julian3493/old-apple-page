@@ -15,7 +15,7 @@ We created a nav-bar with the Apple logo and links to the site, we a gris with o
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/julian3493/old-apple-page/dbc87bfcd8c7ae7d3115eddfca7808c33a869d7d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/julian3493/old-apple-page/655e5be44cf03251238c4bf5080cea9654a351ad/index.html)
 
 ## Getting Started
 
